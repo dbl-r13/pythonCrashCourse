@@ -22,12 +22,12 @@ print("\n","="*16, "TRY THIS YOURSELF", "="*16, "\n")
 for num in range(1,21):
     print(num)
 
-# Count to 1 Milli (Commenting this out because this takes a lot of CPU power)
+# Count to 1 Milli 
 for num in range(0,1_000_001):
     print(num)
 
 
-# Summing 1 Milli (Commenting this out because it takes a lot of CPU power)
+# Summing 1 Milli 
 print(sum([num for num in range(1,1_000_000)])) #Answer is: 499999500000
 
 # Create list of all Odd Numbers
